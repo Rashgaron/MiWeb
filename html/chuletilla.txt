@@ -1,0 +1,30 @@
+Esta es una pequeña chuleta en la configuración y desarrollo del servidor web y una pequeña guía de uso.
+
+
+Lo primero que debes saber es que tienes 2 archivos importantes
+
+El primero se localiza en:
+/etc/apache2/sites-available/
+
+aqui tendremos la plantilla de nuestra página web
+
+por otro lado está la carpeta donde se encuentran los documentos para el desarrollo de la página web.
+se encuentran en 
+/var/www/..../index.html
+En esta carpeta guardaremos los datos de nuestra pagina web
+
+para habilitar el archivo ejemplo.com.conf
+
+sudo a2ensite ejemplo.com.conf
+
+para deshabilitar el archivo
+
+sudo a2dissite ejemplo.com.conf
+
+buscar errores
+
+sudo apache2ctl configtest
+
+compilar cambios en el fichero de base de datos de la página web
+
+sudo systemctl restart apache2

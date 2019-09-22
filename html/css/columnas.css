@@ -1,0 +1,19 @@
+nav{
+
+
+        background: #00b8a9;
+        padding: 20px;
+}
+.columna{
+    margin:10px;
+    background: pink;
+    color: white;
+    padding: 25px;
+    width: 25%;
+
+
+}
+.padre{
+
+    display: flex;
+}
