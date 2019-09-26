@@ -29,4 +29,10 @@ li a:hover{
     background-color: #4caf50;
 }
 .foto1{
-    padding:10px;margin:10px;border:2px solid black; float: right; width:100px;}
+    padding:10px;margin:10px; float: right; width:300px;}
+.indiceCursos{
+    type: "disc";
+    border-right: 0px;
+    border-left: 0px;
+}
+
